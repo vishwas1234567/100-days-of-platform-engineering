@@ -1,7 +1,5 @@
 # 100-days-of-platform-engineering
 
-====
-
 
 Hey there! 😊 I wanted to share an exciting journey called "100 Days of Platform Engineering" with you. This repository documents an individual's quest to gain a solid foundational knowledge of Platform Engineering. The journey begins on January 1st and extends for 100 days, aiming to enhance understanding and provide valuable resources along the way.
 
