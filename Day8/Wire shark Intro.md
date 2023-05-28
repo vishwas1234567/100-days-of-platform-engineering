@@ -5,7 +5,7 @@ Wireshark was first made available in 1998. Back then, it was considered Etherea
 
 Wireshark is now fully open-source, thanks to the global network engineering ecosystem. While most security systems are command-line-based, Wireshark has an excellent user interface.
 
-#OSI Model
+## OSI Model
 
 The Open Systems Interconnection (OSI) paradigm standardises the manner in which two or more computers communicate with one another. The OSI Model classifies network architecture into seven layers:
 
