@@ -1,4 +1,4 @@
-#Wireshark introduction
+# Wireshark introduction
 Wireshark is a network analyzer that allows you to see what is going on with your network. Wireshark allows you to dissect network packets at a microscopic level, including detailed information on individual packets.
 
 Wireshark was first made available in 1998. Back then, it was considered Ethereal. Wireshark is compatible with all major operating systems. Most businesses and government agencies also use Wireshark as a primary network analyzer.
