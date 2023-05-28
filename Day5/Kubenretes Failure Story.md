@@ -22,6 +22,22 @@
 * https://www.paloaltonetworks.com/blog/prisma-cloud/6-common-kubernetes-attacks/
 
 
+### Some Attacks you want to keep in Mind:
+
+Kubernetes is a powerful container orchestration platform, but like any complex system, it can experience failures. Here are a few real-world Kubernetes failure stories:
+
+1. AWS EKS Outage (2021): In February 2021, Amazon Web Services (AWS) experienced a major outage in their Elastic Kubernetes Service (EKS). The issue was caused by a configuration change made during routine maintenance, which inadvertently caused a disruption in EKS control plane communication. As a result, many EKS clusters became unresponsive or experienced increased latency, impacting the availability of applications running on those clusters.
+
+2. Azure AKS Outage (2020): In March 2020, Microsoft Azure's Azure Kubernetes Service (AKS) faced an outage that affected multiple regions. The root cause was identified as a bug in the networking stack, which caused intermittent connectivity issues between the control plane and worker nodes. This led to degraded performance and unavailability of applications hosted on AKS clusters.
+
+3. Cloudflare Outage (2020): In July 2020, Cloudflare, a popular content delivery network (CDN) provider, experienced an outage that impacted numerous websites and services. The incident was triggered by a bug in a software update for their Kubernetes-based edge routers. This bug caused a memory leak, which led to increased CPU and memory usage, ultimately causing service disruptions.
+
+4. Google Cloud GKE Outage (2018): In June 2018, Google Cloud's Google Kubernetes Engine (GKE) suffered a major outage in its us-central1 region. The incident was caused by a software bug in GKE's autoscaling feature, which incorrectly calculated the number of nodes needed to meet the application's resource demands. As a result, the cluster couldn't scale up properly, leading to performance issues and application failures.
+
+5. GitLab Outage (2017): In February 2017, GitLab, a web-based Git repository manager, experienced a critical outage and data loss incident. The outage was caused by a human error during a maintenance procedure, which resulted in accidental removal of production data. GitLab's infrastructure was managed using Kubernetes, and the incident exposed shortcomings in their backup and disaster recovery processes.
+
+These failure stories highlight the complexities involved in managing Kubernetes environments and serve as valuable lessons for understanding potential risks and implementing robust strategies for fault tolerance, monitoring, backup, and disaster recovery. It's important to note that the Kubernetes community actively works to address such issues and improve the platform's reliability with each release.
+
 **A compiled list of links to public failure stories related to Kubernetes.**
 
 * [Make your services faster by removing CPU limits - Buffer - blog post 2020](https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/)
